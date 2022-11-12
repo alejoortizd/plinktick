@@ -1,0 +1,28 @@
+{
+  "name": "plinktick",
+  "version": "1.0.0",
+  "description": "En este repositorio se realiza prueba tecnica consumiendo una API de stocks financieros y retornando el valor maximo de acciones a comprar segun una cantidad de dinero dada por el usuario. Tambien consumiendo la misma API se retornara la cantidad de dinero minima a invertir si se desea comprar las siguiente acciones: AAPL -GOOGL -AMZN -TSLA -FB -TWTR -UBER -LYFT -SNAP -SHOP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejoortizd/plinktick.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejoortizd/plinktick/issues"
+  },
+  "homepage": "https://github.com/alejoortizd/plinktick#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
